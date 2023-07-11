@@ -7,8 +7,8 @@ double length = double.Parse(Console.ReadLine());
 Console.WriteLine("Please enter a height of your room.");
 double height =  double.Parse(Console.ReadLine());
 
-double perimeter = (width * 2) + (height * 2);
-double area = height * width;
+double perimeter = (width * 2) + (length * 2);
+double area = length * width;
 double volume = area * height;
 
 double a = (area * 2);
